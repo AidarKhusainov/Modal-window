@@ -1,0 +1,40 @@
+ html, body {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.modal-window {
+    background-color: rgba(238, 236, 236, 0.808);
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+}
+ 
+.modal-window::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+ 
+.modal-window_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+.modal-window_container {
+    background-color: rgb(220, 228, 238);
+    padding: 20px;
+    text-align: center;
+    white-space: normal;
+}
+
